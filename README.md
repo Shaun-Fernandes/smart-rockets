@@ -8,7 +8,6 @@ To train a `Rocket` to reach a target given an environment with `Obstacles`
 
 #### `Rocket`
 
-
 Each `Rocket` :
 
 *   looks like this:
@@ -41,11 +40,11 @@ At first, the `Population` comprises of `Rocket`s with completely random `DNA`.
 
 <p align="center"><img src="assets/random.png" height="200"></p>
 
-Given $x$ the normalized distance between the target and the `Rocket` at the end of its lifespan,
+Given ![Distance](assets/variable.gif), the normalized distance between the target and the `Rocket` at the end of its lifespan, define the fitness function as:
 
-$f(x) = \begin{cases} (1-x)^4 * 1000 &\text{if } completed \\ (1-x)^4 * 10 &\text{if } crashed \end{cases}$
+![Fitness](assets/equation.gif)
 
-This fitness function defines the probability of choosing a `Rocket` as one of the 2 parents of the next generation of the `Population`
+This fitness function determines the probability of choosing a `Rocket` as one of the 2 parents of the next generation of the `Population`
 
 Due to this, the new generation of the `Population` has a very high probability of having very similar `DNA` to the best `Rockets` of the previous generation.
 
@@ -65,5 +64,5 @@ This simulation was implemented in [JavaScript](https://www.javascript.com/) wit
 
 |Name|ID|
 |---|:---:|
-|_Kelvin DeCosta_|**2016A7PS0006U**|
+|_Kelvin DeCosta_|**2016A7TS0006U**|
 |_Shaun Fernandes_|**2016A7PS0290U**|
