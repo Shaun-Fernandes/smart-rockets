@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+#wrapper {
+    margin : 5vh 5vw;
+    display: block;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+h3 {
+    color : gray;
+}
