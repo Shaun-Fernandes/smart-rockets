@@ -5,11 +5,11 @@ var target;
 var obstacles = new Array(2);
 
 function setup() {
-    var canvas = createCanvas(0.5 * windowWidth, windowHeight);
+    var canvas = createCanvas(windowWidth, windowHeight);
     canvas.parent('sketch-holder');
     target = createVector(width/2, height/4);
-    obstacles[0] = new Obstacle(width/2, height/2, width/2, 25);
-    obstacles[1] = new Obstacle(0, 3*height/4, width/2, 25);
+    obstacles[0] = new Obstacle(width/2, height/2, width/2, 50);
+    obstacles[1] = new Obstacle(0, 3*height/4, width/2, 50);
     population = new Population();
 }
 

@@ -39,7 +39,7 @@ Mutation occurs in a manner in which each gene can be mutated at a particular ra
 
 At first, the `Population` comprises of `Rocket`s with completely random `DNA`.
 
-![Random](assets/random.png)
+<p align="center"><img src="assets/random.png" height="200"></p>
 
 Given $x$ the normalized distance between the target and the `Rocket` at the end of its lifespan,
 
@@ -49,13 +49,21 @@ This fitness function defines the probability of choosing a `Rocket` as one of t
 
 Due to this, the new generation of the `Population` has a very high probability of having very similar `DNA` to the best `Rockets` of the previous generation.
 
-![Better](assets/better.png)
+<p align="center"><img src="assets/better.png" height="200"></p>
 
 Finally, they reach the target
 
-![Success](assets/success.png)
+<p align="center"><img src="assets/success.png" height="200"></p>
 
 
 ## Implementation
 
 This simulation was implemented in [JavaScript](https://www.javascript.com/) with the [Processing](https://p5js.org) graphics library.
+
+## Team
+
+
+|Name|ID|
+|---|:---:|
+|_Kelvin DeCosta_|**2016A7PS0006U**|
+|_Shaun Fernandes_|**2016A7PS0290U**|
